@@ -1,0 +1,30 @@
+{
+  "author": {
+    "name": "OmegaCommerce"
+  },
+  "bugs": {
+    "url": "https://github.com/shashikantx/core/issues"
+  },
+  "description": "Omega core js module",
+  "devDependencies": {
+    "tslint": "~5.15.0",
+    "typescript": "^3.7.5"
+  },
+  "homepage": "https://github.com/shashikantx/core#readme",
+  "keywords": [
+    "parakh"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@omega/core",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashikantx/core.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "publishX": "publish --access=public"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.0.75"
+}
