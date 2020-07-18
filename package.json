@@ -10,16 +10,16 @@
     "tslint": "~5.15.0",
     "typescript": "^3.7.5"
   },
-  "homepage": "https://github.com/shashikantx/core#readme",
+  "homepage": "https://github.com/shashikantx/Omega-Core#readme",
   "keywords": [
-    "parakh"
+    "Omega"
   ],
   "license": "MIT",
   "main": "dist/index.js",
   "name": "@omega/core",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shashikantx/core.git"
+    "url": "git+https://github.com/shashikantx/Omega-Core.git"
   },
   "scripts": {
     "build": "tsc",
