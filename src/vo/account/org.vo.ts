@@ -32,7 +32,7 @@ export interface OrgVo {
     credit: string;
     billingAddress: AddressVo;
     shippingAddress: AddressVo;
-    service:string;
+    service:{string:boolean;};
     storeUnderCompanyNo:string;
     deviceno:string;
     virtualUsername: string;
