@@ -5,9 +5,15 @@ import { BankVo } from './bank.vo';
 import { OrgBrVo } from './org-br.vo';
 import { PosOrgVo } from "../pos";
 export interface OrgVo {
-    company: CompanyVo;
-    merchant: MerchantVo;
-    bank: BankVo;
+    company: {
+        string: CompanyVo;
+    };
+    merchant: {
+        string: MerchantVo;
+    };
+    bank: {
+        string: BankVo;
+    };
     address: AddressVo;
     paymentType: string[];
     maxTicketAmt: string;
@@ -59,7 +65,9 @@ export interface OrgVo {
     ownership: number;
     ph: string;
     email: string;
-    masterBr: OrgBrVo;
+    masterBr: {
+        string: OrgBrVo;
+    };
     brMap: {
         string: OrgBrVo;
     };
