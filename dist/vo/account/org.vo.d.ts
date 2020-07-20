@@ -10,6 +10,9 @@ export interface OrgVo {
     companyfName: string;
     companymName: string;
     companylName: string;
+    adminName: string;
+    adminEmail: string;
+    adminPassword: string;
     merchantCategoryCode: string;
     merchantName: string;
     merchantAddress: AddressVo;
