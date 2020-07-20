@@ -5,6 +5,8 @@
   "bugs": {
     "url": "https://github.com/shashikantx/core/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Omega core js module",
   "devDependencies": {
     "tslint": "~5.15.0",
@@ -26,5 +28,5 @@
     "publishX": "publish --access=public"
   },
   "types": "dist/index.d.ts",
-  "version": "0.0.80"
+  "version": "0.0.81"
 }
