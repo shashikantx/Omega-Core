@@ -57,10 +57,8 @@ export interface OrgVo {
     ownership: number;
     ph: string;
     email: string;
-    masterBr: {string:OrgBrVo};
-    brMap: {
-        string: OrgBrVo;
-    };
+    masterBr: OrgBrVo;
+    brMap: OrgBrVo;
     descBiz: string;
     status: string;
     del: boolean;
