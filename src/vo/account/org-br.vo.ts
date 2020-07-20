@@ -23,6 +23,8 @@ export interface OrgBrVo {
   accountNo:string;
   accountType:string;
   bankAddress:AddressVo;
+  fromTime: string;
+  toTime: string;
    //new fields
   id: string; //brId  for master branch id=master
 

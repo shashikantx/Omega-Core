@@ -21,6 +21,8 @@ export interface OrgBrVo {
     accountNo: string;
     accountType: string;
     bankAddress: AddressVo;
+    fromTime: string;
+    toTime: string;
     id: string;
     orgId: string;
     name: string;
