@@ -1,6 +1,24 @@
 import {AddressVo} from '../address.vo';
 
-export interface OrgBrVo {
+export interface OrgBrVo { 
+  //new fields
+  branchLocation: string;
+  adminfName: string;
+  adminlName: string;
+  adminTitle: string;
+  dbaName: string;
+  serviceUnderCompany: string;
+  branchLogo: string;
+  branchTax: string;
+  deviceSerialNo: string;
+  deviceName: string;
+  deviceId: string;
+  websiteDetails: string;
+  adminName: string;
+  adminEmail: string;
+  adminPassword: string
+
+   //new fields
   id: string; //brId  for master branch id=master
 
   orgId: string; //TODO no need
