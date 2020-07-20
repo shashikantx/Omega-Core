@@ -3,7 +3,7 @@
     "name": "OmegaCommerce"
   },
   "bugs": {
-    "url": "https://github.com/shashikantx/core/issues"
+    "url": "https://github.com/shashikantx/Omega-Core/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
@@ -21,12 +21,12 @@
   "name": "@omega/core",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shashikantx/Omega-Core.git"
+    "url": "https://github.com/shashikantx/Omega-Core.git"
   },
   "scripts": {
     "build": "tsc",
     "publishX": "publish --access=public"
   },
   "types": "dist/index.d.ts",
-  "version": "0.0.81"
+  "version": "0.0.83"
 }
