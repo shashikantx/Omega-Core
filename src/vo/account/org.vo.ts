@@ -28,7 +28,7 @@ export interface OrgVo {
 	bankName:string;
     accountNo:string;
     accountType:string;
-    BankAddress:AddressVo;
+    bankAddress:AddressVo;
     address: AddressVo;
     paymentType:  string[]; 
     maxTicketAmt: string;

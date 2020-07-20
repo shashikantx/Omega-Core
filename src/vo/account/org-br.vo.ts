@@ -17,7 +17,12 @@ export interface OrgBrVo {
   adminName: string;
   adminEmail: string;
   adminPassword: string
-
+  billingAddress: AddressVo;
+  shippingAddress: AddressVo;
+  bankName:string;
+  accountNo:string;
+  accountType:string;
+  bankAddress:AddressVo;
    //new fields
   id: string; //brId  for master branch id=master
 

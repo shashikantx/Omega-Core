@@ -15,6 +15,12 @@ export interface OrgBrVo {
     adminName: string;
     adminEmail: string;
     adminPassword: string;
+    billingAddress: AddressVo;
+    shippingAddress: AddressVo;
+    bankName: string;
+    accountNo: string;
+    accountType: string;
+    bankAddress: AddressVo;
     id: string;
     orgId: string;
     name: string;
