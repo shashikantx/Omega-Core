@@ -9,7 +9,34 @@ import {RideUserVo} from '../ride';
 import {ImageDataVo} from '../doc';
 import {ItrUserVo} from '../itr';
 
-export interface UserVo {
+export interface UserVo { 
+  //new fields
+  employeeNo: string;
+  socialSecurityNo: string;
+  employeeLocation: string;
+  doJ: Date;
+  status: string;
+  employeeType: string;
+  paymentFrequency: string;
+  paymentMethod: string;
+  officeEmail: string;
+  OfficePhone: string;
+  bankName: string;
+  accountNo: string;
+  accountType: string;
+  routingNo: string;
+  bankAddress: AddressVo;
+  userName: string;
+  password: string;
+  pin: string;
+  familyRetaltion: string;
+  familyfName: string;
+  familyLName: string;
+  familyGender: string;
+  familyDob: Date;
+  familyEmail: string;
+  familyPh: string;
+   //new fields
   /* use this id to link other user profile with main profile */
   id: string;
   /* Subject (sub) - identifies the subject of the JWT. */
