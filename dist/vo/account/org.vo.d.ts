@@ -22,7 +22,7 @@ export interface OrgVo {
     bankName: string;
     accountNo: string;
     accountType: string;
-    BankAddress: AddressVo;
+    bankAddress: AddressVo;
     address: AddressVo;
     Visa: string;
     Mastercard: string;
