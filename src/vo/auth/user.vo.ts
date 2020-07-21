@@ -15,7 +15,6 @@ export interface UserVo {
   socialSecurityNo: string;
   employeeLocation: string;
   doJ: Date;
-  status: string;
   employeeType: string;
   paymentFrequency: string;
   paymentMethod: string;
