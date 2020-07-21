@@ -30,7 +30,14 @@ export interface OrgVo {
     accountType:string;
     BankAddress:AddressVo;
     address: AddressVo;
-    paymentType:  string[]; 
+    //paymentType:  string[]; 
+	Visa:string;
+	Mastercard:string;
+	AmericanExpress:string;
+	Discovery:string;
+	DinersClub:string;
+	JCB:string;
+	Maestro:string;
     maxTicketAmt: string;
     maxMonthVolume: string;
     driverLicenseNo: string;
