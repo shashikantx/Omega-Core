@@ -33,6 +33,7 @@ export interface UserVo {
     familyDob: Date;
     familyEmail: string;
     familyPh: string;
+    status: string;
     id: string;
     sub: string;
     cell: string;

@@ -35,6 +35,7 @@ export interface UserVo {
   familyDob: Date;
   familyEmail: string;
   familyPh: string;
+  status: string;
    //new fields
   /* use this id to link other user profile with main profile */
   id: string;
