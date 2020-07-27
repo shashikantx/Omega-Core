@@ -65,6 +65,7 @@ export interface OrgVo {
     deviceno:string;
     virtualUsername: string;
     virtualPassword: string;
+    noOfLocation: string;
     id: string;
     name: string;
     type: string;
