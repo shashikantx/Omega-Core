@@ -34,6 +34,7 @@ export interface UserVo {
     familyEmail: string;
     familyPh: string;
     status: string;
+    department: string;
     id: string;
     sub: string;
     cell: string;
