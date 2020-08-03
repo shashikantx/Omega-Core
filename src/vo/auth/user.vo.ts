@@ -28,7 +28,7 @@ export interface UserVo {
   userName: string;
   password: string;
   pin: string;
-  familyRetaltion: string;
+  familyRelation: string;
   familyfName: string;
   familyLName: string;
   familyGender: string;
