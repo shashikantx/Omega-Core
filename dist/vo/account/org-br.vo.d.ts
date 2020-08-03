@@ -23,6 +23,7 @@ export interface OrgBrVo {
     bankAddress: AddressVo;
     fromTime: string;
     toTime: string;
+    branchFax: string;
     id: string;
     orgId: string;
     name: string;

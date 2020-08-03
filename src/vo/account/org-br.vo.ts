@@ -25,6 +25,7 @@ export interface OrgBrVo {
   bankAddress:AddressVo;
   fromTime: string;
   toTime: string;
+  branchFax: string;
    //new fields
   id: string; //brId  for master branch id=master
 
