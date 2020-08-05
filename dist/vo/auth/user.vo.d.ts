@@ -40,6 +40,9 @@ export interface UserVo {
     website: string;
     billingAddress: AddressVo;
     shippingAddress: AddressVo;
+    customerType: string;
+    customerPreference: string;
+    notes: string;
     id: string;
     sub: string;
     cell: string;

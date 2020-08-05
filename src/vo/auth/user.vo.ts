@@ -45,6 +45,9 @@ export interface UserVo {
    website: string;
    billingAddress: AddressVo;
    shippingAddress: AddressVo;
+   customerType: string;
+   customerPreference: string;
+   notes: string;
     //new fields for customer
 
   /* use this id to link other user profile with main profile */
