@@ -33,8 +33,13 @@ export interface UserVo {
     familyDob: Date;
     familyEmail: string;
     familyPh: string;
-    status: string;
+    status: boolean;
     department: string;
+    communicationPreference: string;
+    fax: string;
+    website: string;
+    billingAddress: AddressVo;
+    shippingAddress: AddressVo;
     id: string;
     sub: string;
     cell: string;

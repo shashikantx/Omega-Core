@@ -35,9 +35,18 @@ export interface UserVo {
   familyDob: Date;
   familyEmail: string;
   familyPh: string;
-  status: string;
+  status: boolean;
   department: string;
    //new fields
+
+   //new fields for customer
+   communicationPreference: string;
+   fax: string;
+   website: string;
+   billingAddress: AddressVo;
+   shippingAddress: AddressVo;
+    //new fields for customer
+
   /* use this id to link other user profile with main profile */
   id: string;
   /* Subject (sub) - identifies the subject of the JWT. */
