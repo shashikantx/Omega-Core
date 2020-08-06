@@ -56,9 +56,7 @@ export interface UserVo {
     cust: {
         string: AclCustVo;
     };
-    emp: {
-        string: AclVo;
-    };
+    emp: AclVo;
     pushToken: PushTokenVo;
     stripeCustId: string;
     payntCustId: string;

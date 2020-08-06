@@ -67,7 +67,7 @@ export interface UserVo {
 
   // { [name: string]: boolean }
   cust: { string: AclCustVo }; // customer of org e.g. {orgId1: true, orgId2: false, orgId3: true}
-  emp: { string: AclVo }; // employee of >> account link to company/org/agent/corp
+  emp: AclVo ; // employee of >> account link to company/org/agent/corp
   /*
   custx : Array<string>;
   empx: Array<AclVo>;
