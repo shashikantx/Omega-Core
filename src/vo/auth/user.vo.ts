@@ -37,6 +37,9 @@ export interface UserVo {
   familyPh: string;
   status: boolean;
   department: string;
+  userAccessLevels: string;
+  timeZone: string;
+  hourlyRate: string;
    //new fields
 
    //new fields for customer
