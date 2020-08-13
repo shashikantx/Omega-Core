@@ -2,16 +2,7 @@
  * Device
  */
 export interface Device {
-//new fields
-name: string;
-serialNo: string;
-validity: Date;
-branch: string;
-location: string;
-status: boolean;
-subscriptionDate: Date;
-billingFrequency: string;
-//new fields
+
   /* ************************************ Instance Fields ************************************ */
   id: number;// = '0'; // must be string device.uuid deviceId like 52548590-9962-4277-9C37-95C8A8A27B7C or c6da166c0838ef8e
   uid: number; // server generated Id //need to store in SQLite | use - VAL.claim.uid
