@@ -24,6 +24,7 @@ export interface OrgBrVo {
     fromTime: string;
     toTime: string;
     branchFax: string;
+    timeZone: string;
     id: string;
     orgId: string;
     name: string;

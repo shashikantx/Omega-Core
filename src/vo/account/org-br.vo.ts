@@ -26,6 +26,7 @@ export interface OrgBrVo {
   fromTime: string;
   toTime: string;
   branchFax: string;
+  timeZone: string;
    //new fields
   id: string; //brId  for master branch id=master
 
