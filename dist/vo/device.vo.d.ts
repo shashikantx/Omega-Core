@@ -1,6 +1,5 @@
 import { AddressVo } from "./address.vo";
 export interface DeviceVo {
-    serialNo: string;
     validity: Date;
     branch: string;
     location: AddressVo;

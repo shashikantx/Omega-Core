@@ -1,7 +1,6 @@
 import { AddressVo } from "./address.vo";
 export interface DeviceVo {
   //new fields
-serialNo: string;
 validity: Date;
 branch: string;
 location: AddressVo;
