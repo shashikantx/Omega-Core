@@ -2,6 +2,7 @@ import { AddressVo } from "./address.vo";
 export interface DeviceVo {
     validity: Date;
     branch: string;
+    company: string;
     location: AddressVo;
     subscriptionDate: Date;
     billingFrequency: string;
