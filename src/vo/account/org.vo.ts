@@ -66,6 +66,8 @@ export interface OrgVo {
     virtualUsername: string;
     virtualPassword: string;
     noOfLocations: string;
+    registrationDate: Date;
+    mid: string;
     id: string;
     name: string;
     type: string;
