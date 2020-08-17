@@ -46,6 +46,7 @@ export interface UserVo {
     customerType: string;
     customerPreference: string;
     notes: string;
+    ph: string;
     id: string;
     sub: string;
     cell: string;

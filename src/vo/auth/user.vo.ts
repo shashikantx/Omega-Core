@@ -51,6 +51,7 @@ export interface UserVo {
    customerType: string;
    customerPreference: string;
    notes: string;
+   ph: string;
     //new fields for customer
 
   /* use this id to link other user profile with main profile */
