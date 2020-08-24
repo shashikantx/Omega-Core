@@ -40,6 +40,8 @@ export interface PaymentMethodDto {
     cardExpiryDate: string;
     panEntryMode: string;
     cardLastFourDigits: string;
+    orgId: string;
+    brId: string;
     id: string;
     gatewayCustId: string;
     object: string;
