@@ -42,6 +42,7 @@ export interface PaymentMethodDto {
     cardLastFourDigits: string;
     orgId: string;
     brId: string;
+    branchId: string;
     id: string;
     gatewayCustId: string;
     object: string;

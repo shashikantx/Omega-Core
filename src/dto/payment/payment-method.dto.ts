@@ -45,6 +45,7 @@ panEntryMode: string;
 cardLastFourDigits: string;
 orgId:string;
 brId:string;
+branchId:string;
    //new fields for stroing NMI response
 
   id: string; //sourceId card_xxxx
