@@ -60,7 +60,8 @@ export interface OrgVo {
     credit: string;
     billingAddress: AddressVo;
     shippingAddress: AddressVo;
-    service:Array<{ id: string, name: string }>;
+    service:boolean;
+    serviceUnderCompany:Array<{ item_id: number, item_text: string }>;
     storeUnderCompanyNo:string;
     deviceno:string;
     virtualUsername: string;
