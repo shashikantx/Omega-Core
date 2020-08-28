@@ -5,7 +5,10 @@ export interface OrgBrVo {
     adminlName: string;
     adminTitle: string;
     dbaName: string;
-    serviceUnderCompany: string;
+    serviceUnderCompany: Array<{
+        item_id: number;
+        item_text: string;
+    }>;
     branchLogo: string;
     branchTax: string;
     deviceSerialNo: string;
