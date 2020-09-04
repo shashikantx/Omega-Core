@@ -15,4 +15,5 @@ export interface CompanyVo {
     companyfName: string;
     companymName: string;
     companylName: string;
+    id: string;
 }
