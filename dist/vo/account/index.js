@@ -14,3 +14,4 @@ __exportStar(require("./org.vo"), exports);
 __exportStar(require("./org-br.vo"), exports);
 __exportStar(require("./org-coord.vo"), exports);
 __exportStar(require("./percent-flat.vo"), exports);
+__exportStar(require("./company.vo"), exports);
