@@ -115,6 +115,7 @@ export interface OrgVo {
     dbaName: string;
     websiteDetails: string;
     branchTax: string;
+    branchType: string;
     adminfName: string;
     adminlName: string;
     openingHoursmon: string;
