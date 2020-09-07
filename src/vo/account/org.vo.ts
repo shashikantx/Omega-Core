@@ -5,39 +5,39 @@ import { BankVo } from './bank.vo';
 import { OrgBrVo } from './org-br.vo';
 import { PosOrgVo } from "../pos";
 export interface OrgVo {
-   // company: CompanyVo;
+    // company: CompanyVo;
     companySince: string;
     companyEmail: string;
     companyPhn: string;
-    companyFax:string;
+    companyFax: string;
     companyTitle: string;
     companyfName: string;
     companymName: string;
     companylName: string;
-  //  merchant: MerchantVo;
-  adminName:string;
-  adminEmail:string;
-  adminPassword:string;
-   merchantCategoryCode: string;
+    //  merchant: MerchantVo;
+    adminName: string;
+    adminEmail: string;
+    adminPassword: string;
+    merchantCategoryCode: string;
     merchantName: string;
     merchantAddress: AddressVo;
     merchantPhn: string;
     merchantEmail: string;
     merchantDob: string;
     //bank: BankVo;
-	bankName:string;
-    accountNo:string;
-    accountType:string;
-    bankAddress:AddressVo;
+    bankName: string;
+    accountNo: string;
+    accountType: string;
+    bankAddress: AddressVo;
     address: AddressVo;
     //paymentType:  string[]; 
-	Visa:string;
-	Mastercard:string;
-	AmericanExpress:string;
-	Discovery:string;
-	DinersClub:string;
-	JCB:string;
-	Maestro:string;
+    Visa: string;
+    Mastercard: string;
+    AmericanExpress: string;
+    Discovery: string;
+    DinersClub: string;
+    JCB: string;
+    Maestro: string;
     maxTicketAmt: string;
     maxMonthVolume: string;
     driverLicenseNo: string;
@@ -46,7 +46,7 @@ export interface OrgVo {
     terminalId: string;
     bankId: string;
     industryCodeNo: string;
-    timeZone:string;
+    timeZone: string;
     dayLightSaving: string;
     accquirer: string;
     accquirerContact: string;
@@ -60,10 +60,10 @@ export interface OrgVo {
     credit: string;
     billingAddress: AddressVo;
     shippingAddress: AddressVo;
-    service:boolean;
-    serviceUnderCompany:Array<{ item_id: number, item_text: string }>;
-    storeUnderCompanyNo:string;
-    deviceno:string;
+    service: boolean;
+    serviceUnderCompany: Array<{ item_id: number, item_text: string }>;
+    storeUnderCompanyNo: string;
+    deviceno: string;
     virtualUsername: string;
     virtualPassword: string;
     noOfLocations: string;
@@ -115,4 +115,45 @@ export interface OrgVo {
         string: boolean;
     };
     pos: PosOrgVo;
+
+
+    //new fields
+    desc: string;
+    dbaName: string;
+    websiteDetails: string;
+    branchTax: string;
+    
+    adminfName: string;
+    adminlName: string;
+
+    openingHoursmon: string,
+    closingHoursmon:  string,
+    
+
+    openingHourstue: string;
+    closingHourstue: string;
+
+    openingHourswed: string;
+    closingHourswed: string;
+
+    openingHoursthu: string;
+    closingHoursthu: string;
+
+    openingHoursfri: string;
+    closingHoursfri: string;
+
+    openingHourssat: string;
+    closingHourssat: string;
+
+    openingHourssun: string;
+    closingHourssun: string;
+
+    monday: boolean;
+    tuesday: boolean;
+    wednesday: boolean;
+    thursday: boolean;
+    friday: boolean;
+    saturday: boolean;
+    sunday: boolean;
+    sameAddress: boolean,
 }
