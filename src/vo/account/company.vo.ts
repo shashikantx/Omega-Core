@@ -11,6 +11,7 @@ import { AddressVo } from "../address.vo";
 export interface CompanyVo { 
     billingAddress:AddressVo;
     shippingAddress:AddressVo;
+    //aboutBusinessForm
     name:string;
     registrationDate:Date;
     dba: string;
@@ -27,6 +28,7 @@ export interface CompanyVo {
     noOfLocations: string;
     storeUnderCompanyNo:string;
     deviceno:string;
+    //communicationForm
     ph: string;
     email: string;
     domain: string;
@@ -37,6 +39,7 @@ export interface CompanyVo {
     bankName:string;
     accountNo:string;
     accountType:string;
+    //VARSheetForm
     mid1:string;
     terminalId: string;
     bankId: string;
