@@ -9,6 +9,8 @@ import { AddressVo } from "../address.vo";
  Fax Number
  */
 export interface CompanyVo { 
+    modifiedDate: Date;
+    createdDate: Date;
     billingAddress:AddressVo;
     shippingAddress:AddressVo;
     //aboutBusinessForm

@@ -9,6 +9,8 @@ import { RideUserVo } from '../ride';
 import { ImageDataVo } from '../doc';
 import { ItrUserVo } from '../itr';
 export interface UserVo {
+    modifiedDate: Date;
+    createdDate: Date;
     employeeNo: string;
     socialSecurityNo: string;
     employeeLocation: string;

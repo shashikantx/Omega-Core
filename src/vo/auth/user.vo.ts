@@ -10,6 +10,8 @@ import {ImageDataVo} from '../doc';
 import {ItrUserVo} from '../itr';
 
 export interface UserVo { 
+  modifiedDate: Date;
+  createdDate: Date;
   //new fields
   employeeNo: string;
   socialSecurityNo: string;

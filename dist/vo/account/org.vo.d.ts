@@ -2,6 +2,8 @@ import { AddressVo } from '../address.vo';
 import { OrgBrVo } from './org-br.vo';
 import { PosOrgVo } from "../pos";
 export interface OrgVo {
+    modifiedDate: Date;
+    createdDate: Date;
     companySince: string;
     companyEmail: string;
     companyPhn: string;
