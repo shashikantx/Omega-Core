@@ -12,6 +12,7 @@ export interface MetadataConfigPosVo {
     taxCountyAdditive: boolean;
     taxSpecial: PercentFlatVo;
     taxCity: PercentFlatVo;
+    taxFederal: PercentFlatVo;
     igst: number;
     cgst: number;
     sgst: number;
