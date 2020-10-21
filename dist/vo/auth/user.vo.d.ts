@@ -11,6 +11,7 @@ import { ItrUserVo } from '../itr';
 export interface UserVo {
     modifiedDate: Date;
     createdDate: Date;
+    permissions: Array<string>;
     employeeNo: string;
     socialSecurityNo: string;
     employeeLocation: string;
