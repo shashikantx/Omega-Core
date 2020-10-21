@@ -13,6 +13,7 @@ export interface UserVo {
   modifiedDate: Date;
   createdDate: Date;
   permissions: string[];
+  orgIds: string[];
   //new fields
   employeeNo: string;
   socialSecurityNo: string;
