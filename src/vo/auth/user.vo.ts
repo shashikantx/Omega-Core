@@ -14,6 +14,7 @@ export interface UserVo {
   createdDate: Date;
   permissions: string[];
   orgIds: string[];
+  customer: boolean;
   //new fields
   employeeNo: string;
   socialSecurityNo: string;
