@@ -43,7 +43,7 @@ export interface UserVo {
     userAccessLevels: string;
     timeZone: string;
     hourlyRate: string;
-    communicationPreference: string;
+    preference: string;
     fax: string;
     website: string;
     billingAddress: AddressVo;

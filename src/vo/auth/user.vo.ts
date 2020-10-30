@@ -48,7 +48,8 @@ export interface UserVo {
    //new fields
 
    //new fields for customer
-   communicationPreference: string;
+  // communicationPreference: string;
+  preference: string;
    fax: string;
    website: string;
    billingAddress: AddressVo;
