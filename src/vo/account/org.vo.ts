@@ -29,6 +29,7 @@ export interface OrgVo {
     //bank: BankVo;
     bankName: string;
     accountNo: string;
+    routingNo: string;
     accountType: string;
     bankAddress: AddressVo;
     address: AddressVo;
