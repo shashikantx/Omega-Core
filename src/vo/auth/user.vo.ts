@@ -17,6 +17,7 @@ export interface UserVo {
   customer: boolean;
   contactPreferenceMobile:boolean;
   contactPreferenceEmail:boolean;
+  employeeHour:string;
   //new fields
   employeeNo: string;
   socialSecurityNo: string;
