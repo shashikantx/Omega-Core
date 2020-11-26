@@ -12,6 +12,7 @@ export interface CompanyVo {
     createdDate: Date;
     billingAddress: AddressVo;
     shippingAddress: AddressVo;
+    routingNumber: string;
     name: string;
     registrationDate: Date;
     dba: string;

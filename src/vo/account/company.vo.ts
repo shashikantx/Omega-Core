@@ -13,6 +13,7 @@ export interface CompanyVo {
     createdDate: Date;
     billingAddress:AddressVo;
     shippingAddress:AddressVo;
+    routingNumber:string;
     //aboutBusinessForm
     name:string;
     registrationDate:Date;
