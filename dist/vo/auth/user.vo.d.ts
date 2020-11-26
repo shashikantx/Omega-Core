@@ -14,6 +14,8 @@ export interface UserVo {
     permissions: string[];
     orgIds: string[];
     customer: boolean;
+    contactPreferenceMobile: boolean;
+    contactPreferenceEmail: boolean;
     employeeNo: string;
     socialSecurityNo: string;
     employeeLocation: string;
