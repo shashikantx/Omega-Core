@@ -7,6 +7,7 @@
  Fax Number
  */
 export interface AddressVo {
+    aptDoorFlatNo: string;
     street1: string;
     street2: string;
     landmark: string;
